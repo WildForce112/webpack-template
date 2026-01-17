@@ -1,10 +1,10 @@
 {
-  "name": "weather-app",
+  "name": "webpack-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "prepare": "husky"
